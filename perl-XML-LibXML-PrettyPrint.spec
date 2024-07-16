@@ -38,9 +38,9 @@ XML, you should probably not use this module.
 %prep
 %setup -q -n %{upstream_name}-%{upstream_version}
 
-%build
-%{__perl} Makefile.PL INSTALLDIRS=vendor
+perl Makefile.PL INSTALLDIRS=vendor
 
+%build
 %make_build
 
 %check
