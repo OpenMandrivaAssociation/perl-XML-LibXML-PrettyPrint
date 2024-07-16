@@ -50,7 +50,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %make_install
 
 %files
-%doc CONTRIBUTING COPYRIGHT CREDITS Changes INSTALL LICENSE META.json META.yml MYMETA.yml README SIGNATURE
+%doc CONTRIBUTING COPYRIGHT CREDITS Changes INSTALL LICENSE META.json META.yml README SIGNATURE
 %{_bindir}/xml-pretty
 %perl_vendorlib/*
 %{_mandir}/man1/xml-pretty.1*
